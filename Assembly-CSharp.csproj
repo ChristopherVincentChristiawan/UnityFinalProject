@@ -1,0 +1,1213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{32280aa3-19a5-092a-abc9-4cefce8a1181}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_19;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+     <Compile Include="Assets\Scripts\PlayerManager.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\PostProcessingComponent.cs" />
+     <Compile Include="Assets\Scripts\CharacterAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\BloomModel.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\Scripts\CharacterAnimationEventReceiver.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+     <Compile Include="Assets\Scripts\EnemyAnimator.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\Scripts\Controllers\EnemyController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\DitheringModel.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\Scripts\Controllers\PlayerMotor.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\BloomComponent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+     <Compile Include="Assets\player.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\CharacterCombat.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+     <Compile Include="Assets\Scripts\EnemyStats.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\VignetteModel.cs" />
+     <Compile Include="Assets\Scripts\SocketManager.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\GrainComponent.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\UserLutModel.cs" />
+     <Compile Include="Assets\Scripts\Stats\CharacterStats.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+     <Compile Include="Assets\Scripts\UDPReceive.cs" />
+     <Compile Include="Assets\Scripts\UIButtonClick.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\Scripts\EnemyCombat.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+     <Compile Include="Assets\Scripts\ItemPickUp.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\PostProcessingProfile.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\PostProcessingContext.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\Scripts\Stats\Stat.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+     <Compile Include="Assets\Scripts\HealthUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+     <Compile Include="Assets\Scripts\Interactable.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\FogModel.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\PostProcessingModel.cs" />
+     <Compile Include="Assets\Scripts\Controllers\CameraController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\Scripts\LineCode.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+     <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Scripts\HandTracking.cs" />
+     <Compile Include="Assets\Scripts\Inventory.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\TaaComponent.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\GrainModel.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Components\FogComponent.cs" />
+     <Compile Include="Assets\Environment\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\opencv_python-4.7.0.72.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_07.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_21.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pandas-2.0.2.dist-info\entry_points.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_28.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsXml_c14nDefault.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsContent_c14nQnameXpathElem.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inNsXml.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\sympy-1.12.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsSort_c14nDefault.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\PyYAML-6.0.dist-info\top_level.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inC14N1_c14nDefault.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\c14nPrefix.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\iso2022_kr.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_42.txt" />
+     <None Include="Assets\Scripts\Python\python\Tools\pynche\websafe.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\euc_kr-utf8.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-minkowski-3.2-ml-iris.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-minkowski-3.2-ml.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\ndimage\tests\data\label_results.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inC14N2_c14nTrim.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_10.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\cdist-X1.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\urllib3-2.0.2.dist-info\licenses\LICENSE.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\GrainGen.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\c14nTrim.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_38.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsRedecl_c14nPrefix.xml" />
+     <None Include="Assets\Environment\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\matplotlib\mpl-data\sample_data\README.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\euc_kr.txt" />
+     <None Include="Assets\Scripts\Python\python\Tools\pynche\html40colors.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_doctest.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_importlib\data02\one\resource1.txt" />
+     <None Include="Assets\Environment\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\random-int-data.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_23.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_31.txt" />
+     <None Include="Assets\Environment\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_frontalcatface.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\shift_jisx0213.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\lib2to3\Grammar.txt" />
+     <None Include="Assets\Scripts\Python\python\share\doc\networkx-3.1\examples\algorithms\WormNet.v3.benchmark.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_12a.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\c14nPrefixQnameXpathElem.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\torchvision-0.15.2.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pandas\tests\io\data\xml\baby_names.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\big5hkscs.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-cosine-ml.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inC14N3.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsXml_c14nPrefix.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\johab-utf8.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_smile.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-chebyshev-ml-iris.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\ieee754.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_13.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\io\matlab\tests\data\japanese_utf8.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\requests-2.31.0.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\floating_points.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\c14nQname.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pandas\tests\io\data\xml\doc_ch_utf.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-double-inp.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pytz-2023.3.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\fontTools\ttLib\tables\table_API_readme.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\LutGen.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\numpy\core\include\numpy\libdivide\LICENSE.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pandas-2.0.2.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_06.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\smmap-5.0.0.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Tools\pynche\X\xlicense.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\exception_hierarchy.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\matplotlib-3.7.1.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_20.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_39.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\networkx-3.1.dist-info\entry_points.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\opencv_python-4.7.0.72.dist-info\LICENSE.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsSuperfluous_c14nPrefix.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_lowerbody.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_33.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inNsDefault.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\contourpy-1.0.7.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-chebyshev-ml.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\world.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_lefteye_2splits.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsPushdown_c14nPrefix.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-cityblock-ml-iris.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_17.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inC14N4_c14nDefault.xml" />
+     <None Include="Assets\Scripts\Python\python\LICENSE.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pytz-2023.3.dist-info\LICENSE.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\shift_jis.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_16.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\big5.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\TAA.cginc" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\c14nQnameElem.xml" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_11.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_03.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsSuperfluous_c14nDefault.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_importlib\data03\namespace\resource1.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\math_testcases.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\torch-2.0.1.dist-info\entry_points.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\charset_normalizer-3.1.0.dist-info\entry_points.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-cosine-ml-iris.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_45.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\shift_jis-utf8.txt" />
+     <None Include="Assets\Scripts\Python\python\share\doc\networkx-3.1\examples\algorithms\README.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_41.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_russian_plate_number.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\simple.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-jensenshannon-ml-iris.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_04.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\networkx-3.1.dist-info\LICENSE.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\fonttools-4.39.4.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\random-bool-data.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\tokenize_tests-utf8-coding-cookie-and-no-utf8-bom-sig.txt" />
+     <None Include="Assets\Environment\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_profileface.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inC14N5_c14nTrim.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cmath_testcases.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-seuclidean-ml.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\random-double-data.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsXml_c14nQname.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\python_dateutil-2.8.2.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\iso2022_jp.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inC14N5_c14nDefault.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_eye.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\simple-ns.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_fullbody.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inC14N3_c14nDefault.xml" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+     <None Include="Assets\Scripts\Python\python\share\doc\networkx-3.1\examples\graph\README.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\setuptools-65.5.0.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_doctest3.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pandas\tests\io\data\fixed_width\fixed_width_format.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\euc_jp.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\test.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_frontalface_alt2.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\Jinja2-3.1.2.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\setuptools-65.5.0.dist-info\entry_points.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inC14N4_c14nTrim.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\numpy\core\include\numpy\ufunc_api.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_43.txt" />
+     <None Include="Assets\Scripts\Python\python\Tools\pynche\namedcolors.txt" />
+     <None Include="Assets\Environment\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+     <None Include="Assets\Scripts\Python\python\NEWS.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\matplotlib-3.7.1.dist-info\namespace_packages.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pip-23.0.1.dist-info\entry_points.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\ultralytics-8.0.112.dist-info\entry_points.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\big5hkscs-utf8.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsContent_c14nQnameElem.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\c14nPrefixQname.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\hz-utf8.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\cp949.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_12.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\Jinja2-3.1.2.dist-info\entry_points.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\Pillow-9.5.0.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\c14nComment.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-minkowski-5.8-ml-iris.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inC14N1_c14nComment.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsDefault_c14nDefault.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\numpy-1.24.3.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_doctest2.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_19.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-cityblock-ml.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsContent_c14nDefault.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsDefault_c14nPrefix.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inC14N2.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-jensenshannon-ml.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\MarkupSafe-2.1.3.dist-info\top_level.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_frontalcatface_extended.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_40.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\euc_jisx0213-utf8.txt" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pip-23.0.1.dist-info\LICENSE.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_35.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inNsSort.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inC14N2_c14nDefault.xml" />
+     <None Include="Assets\Scripts\Python\python\share\doc\networkx-3.1\examples\basic\README.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\big5-utf8.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsXml_c14nPrefixQname.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\setuptools\command\launcher manifest.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsSort_c14nPrefix.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\random-uint-data.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-boolean-inp.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\ACES.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_24.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\formatfloat_testcases.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inNsContent.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_09.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\numpy\core\include\numpy\multiarray_api.txt" />
+     <None Include="Assets\Scripts\Python\python\Tools\pynche\webcolors.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cycler-0.11.0.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pandas\tests\io\data\gbq_fake_job.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\FXAA.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\mpmath-1.3.0.dist-info\top_level.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\iris.txt" />
+     <None Include="Assets\Scripts\Python\python\share\doc\networkx-3.1\LICENSE.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\tokenize_tests-latin1-coding-cookie-and-utf8-bom-sig.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_05.txt" />
+     <None Include="Assets\Environment\Particles\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Scripts\Python\python\share\doc\networkx-3.1\examples\subclass\README.txt" />
+     <None Include="Assets\Scripts\Python\python\Tools\pynche\X\rgb.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\iso2022_jp-utf8.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_license_plate_rus_16stages.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\c14nDefault.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-correlation-ml-iris.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\leakers\README.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\LICENSE.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\hz.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_37.txt" />
+     <None Include="Assets\Scripts\Python\python\share\doc\networkx-3.1\examples\3d_drawing\README.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\euc_jisx0213.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsPushdown_c14nDefault.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-seuclidean-ml-iris.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_25.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\gb2312-utf8.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\selfdual-4d-polytope.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_34.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inC14N3_c14nTrim.xml" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\Fog.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\cdist-X2.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_32.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-euclidean-ml-iris.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-hamming-ml.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\README.txt" />
+     <None Include="Assets\Environment\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\gitdb-4.0.10.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_upperbody.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\qhull_src\COPYING.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\euc_jp-utf8.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\tokenize_tests-utf8-coding-cookie-and-utf8-bom-sig.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsContent_c14nPrefixQnameXpathElem.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inC14N1.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_44.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\ndimage\tests\data\label_inputs.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_22.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\gb2312.txt" />
+     <None Include="Assets\Scripts\Python\python\share\doc\networkx-3.1\examples\drawing\README.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\numpy-1.24.3.dist-info\LICENSES_bundled.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\expat224_utf8_bug.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\matplotlib\mpl-data\fonts\pdfcorefonts\readme.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\networkx-3.1.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\gb18030.txt" />
+     <None Include="Assets\Environment\PostProcessing\Editor Resources\UI\Trackball.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\numpy\core\tests\data\umath-validation-set-README.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\tokenize_tests-no-coding-cookie-and-utf8-bom-sig-only.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\iso2022_kr-utf8.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-euclidean-ml.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inC14N6_c14nDefault.xml" />
+     <None Include="Assets\Environment\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inC14N5.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\six-1.16.0.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\tokenize_tests.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\gbk.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\fonttools-4.39.4.dist-info\entry_points.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pandas\tests\io\data\xml\books.xml" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\Common.cginc" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\opencv_python-4.7.0.72.dist-info\LICENSE-3RD-PARTY.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_importlib\data02\two\resource2.txt" />
+     <None Include="Assets\Environment\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\GitPython-3.1.31.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\colorama-0.4.6.dist-info\licenses\LICENSE.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\sympy\parsing\autolev\test-examples\README.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\Bloom.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_36.txt" />
+     <None Include="Assets\Environment\Particles\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\charset_normalizer-3.1.0.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inC14N3_c14nPrefix.xml" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\Uber.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_29.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_01.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\gb18030-utf8.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\sympy\parsing\latex\LICENSE.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Environment\Particles\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-spearman-ml.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\TAA.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy-1.10.1.dist-info\LICENSE.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_doctest4.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_righteye_2splits.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\johab.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\c14nQnameXpathElem.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_eye_tree_eyeglasses.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inNsPushdown.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\tqdm-4.65.0.dist-info\entry_points.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\Blit.shader" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\Bloom.cginc" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\out_inNsRedecl_c14nDefault.xml" />
+     <None Include="Assets\Environment\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\gbk-utf8.txt" />
+     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_14.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inNsRedecl.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\numpy\LICENSE.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\mailcap.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inC14N6.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\ultralytics-8.0.112.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\torch-2.0.1.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\cp949-utf8.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pip\_vendor\vendor.txt" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\ndimage\tests\data\label_strels.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_18.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_46.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\tqdm-4.65.0.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\LICENSE-3RD-PARTY.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_frontalface_alt.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\certifi-2023.5.7.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inNsSuperfluous.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\lib2to3\PatternGrammar.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-jaccard-ml.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_26.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_08.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\sympy-1.12.dist-info\entry_points.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\xmltestdata\c14n-20\inC14N4.xml" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\cjkencodings\shift_jisx0213-utf8.txt" />
+     <None Include="Assets\Scripts\Python\python\share\doc\networkx-3.1\examples\README.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\scipy\spatial\tests\data\pdist-correlation-ml.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\kiwisolver-1.4.4.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\psutil-5.9.5.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_27.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_02.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\tzdata-2023.3.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\numpy-1.24.3.dist-info\LICENSE.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\cv2\data\haarcascade_frontalface_alt_tree.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\pip-23.0.1.dist-info\top_level.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_15.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\test\test_email\data\msg_30.txt" />
+     <None Include="Assets\Scripts\Python\python\Lib\site-packages\numpy-1.24.3.dist-info\entry_points.txt" />
+    <Reference Include="UnityEngine">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+        <HintPath>D:\3D_4_third_attempt\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+        <HintPath>D:\3D_4_third_attempt\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+        <HintPath>D:\Skripsi\Unity\2021.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+        <HintPath>D:\3D_4_third_attempt\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
